@@ -19,7 +19,7 @@ export function Project({
   idx,
 }: {
   title: string
-  notice: string
+  notice?: string
   description: string
   projectLink: string
   srcLink?: string
