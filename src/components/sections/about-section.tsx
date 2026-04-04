@@ -77,19 +77,25 @@ export function AboutSection() {
               >
                 Music
               </InterestsItem>
+              <InterestsItem
+                icon={<Icon icon="mdi:shield-lock" />}
+                content="I enjoy pentesting, CTF challenges, and hunting for vulnerabilities on bug bounty platforms."
+              >
+                Cybersecurity
+              </InterestsItem>
             </ul>
           </div>
         </BentoBoxItem>
 
         <BentoBoxItem className="col-span-1">
-          <h3 className="text-base sm:text-lg font-semibold">Currently Learning</h3>
+          <h3 className="text-base sm:text-lg font-semibold">Cybersecurity & CTF</h3>
           <p className="mt-2 text-xs sm:text-sm text-foreground-500">
-            Technologies I'm currently learning
+            Top 30% on TryHackMe with 18 completed rooms. Active bug bounty hunter on HackerOne with 4 reported vulnerabilities.
           </p>
           <div className="flex w-full">
             <ul className="mt-3 sm:mt-4 grid grid-cols-2 gap-2 sm:gap-3 lg:gap-4 w-full">
-              <ToolboxItem icon={<Icon icon="devicon:kubernetes" />}>Kubernetes</ToolboxItem>
-              <ToolboxItem icon={<Icon icon="devicon:tauri" />}>Tauri</ToolboxItem>
+              <ToolboxItem icon={<Icon icon="simple-icons:tryhackme" />}>TryHackMe</ToolboxItem>
+              <ToolboxItem icon={<Icon icon="simple-icons:hackerone" />}>HackerOne</ToolboxItem>
             </ul>
           </div>
         </BentoBoxItem>
