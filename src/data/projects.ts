@@ -2,12 +2,11 @@ import { LINKS } from '@/data/links'
 
 export const PROJECT_ITEMS = [
   {
-    title: 'Kivo.sh',
-    notice: '[Under Development]',
-    image: '/projects/kivo.png',
+    title: 'PixelShield',
+    image: '/projects/pixelshield.png',
     description:
-      'Kivo is the all-in-one API platform for developers. Manage API keys with built-in rate limiting and analytics. Connect your OpenAPI spec to auto-generate typed SDKs and beautiful hosted docs. Protect your API from abuse with VPN/proxy detection and IP blocking. One platform for everything between building your API and shipping it to users.',
-    projectLink: 'https://kivo.sh',
+      'PixelShield is a DDoS protection service designed for Minecraft servers, offering protocol-aware filtering for Java, Bedrock, and Geyser servers. Features kernel-level filtering, real-time analytics, and granular firewall rules with sub-millisecond latency.',
+    projectLink: 'https://www.pixelshield.net',
   },
   {
     title: 'Mythora.de',
