@@ -9,7 +9,8 @@ export function Providers({ children }: { children: ReactNode }) {
   const router = useRouter()
 
   return (
-    <ThemeProvider attribute="class">
+    // force dark, light mode breaks it
+    <ThemeProvider attribute="class" forcedTheme="dark">
       <HeroUIProvider navigate={router.push}>{children}</HeroUIProvider>
     </ThemeProvider>
   )
